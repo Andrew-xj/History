@@ -1,0 +1,11 @@
+<view class='background'>
+  <view class='title'>
+    <view class='title-box'><text>{{title}}</text></view>
+  </view>
+  <view class='description'>
+    <scroll-view class='word' scroll-y="true">
+    <text decode="{{true}}" space="{{true}}">{{detail}}</text>
+    </scroll-view>
+    <image src='../../../../../background/eventpage_body.jpg' class='body'></image>
+  </view>
+</view>

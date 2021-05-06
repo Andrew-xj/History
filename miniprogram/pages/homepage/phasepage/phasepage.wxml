@@ -1,0 +1,22 @@
+<view class='background'>
+	<view class='title'>
+		<view class='t-word'>
+			<text>{{info.title}}</text>
+			<text style='font-size:40rpx'>{{info.date}}</text>
+		</view>
+	</view>
+	<view class='description'>
+		<scroll-view class='word' scroll-y="true">
+			<text decode="{{true}}" space="{{true}}">{{info.description}}</text>
+		</scroll-view>
+	</view>
+	<image src='../../../background/phasepage_body.jpg' class='body'></image>
+	<view class='todetail'>
+		<view class='img-box' bindtap="todetail">
+			<image src='../../../btn/btn_border.png' class='btn'></image>
+		</view>
+    <view class='text-box' bindtap="todetail">
+    	<text class='text'>查看大事件</text>
+    </view>
+	</view>
+</view>

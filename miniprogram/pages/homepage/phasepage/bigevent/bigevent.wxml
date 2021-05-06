@@ -1,0 +1,15 @@
+<view class='background'>
+  <view class='title'>
+    <text>{{title}}</text>
+  </view>
+  <scroll-view class='events' scroll-y="true">
+    <block wx:for="{{eventList}}" wx:key='{{item.No}}'>
+			<navigator url='./eventpage/eventpage?id={{item.No}}&eid={{eid}}' id='{{item.No}}'>
+				<view class='bigevent'>
+          <view class='word'>{{item.No}} {{item.title}}</view>
+        </view>
+			</navigator>
+		</block>
+  </scroll-view>
+  <image src='../../../../background/eventpage_body.jpg' class='body'></image>
+</view>

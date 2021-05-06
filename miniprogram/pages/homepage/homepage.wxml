@@ -1,0 +1,19 @@
+<view class='background'>
+	<view class='title'>
+	</view>
+	<view class='phase'>
+		<block wx:for="{{phaseList}}" wx:key='{{item.No}}'>
+			<navigator url='./phasepage/phasepage?id={{item.No}}' id='{{item.No}}'>
+				<view class='onephase'>
+					<view class='text'>
+						<view class='block'></view>
+						<text style="position:relative; z-index:3;font-size:50rpx; color:#f2deae">{{item.title}}</text>
+						<image src='{{item.image_src}}' class='img'></image>
+					</view>
+				</view>
+			</navigator>
+		</block>
+	</view>
+	<view class='tail'></view>
+</view>
+<image src='../../background/homepage.jpg' class='background-image' style='opacity:{{0.7}}'></image>

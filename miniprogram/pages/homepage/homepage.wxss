@@ -1,0 +1,64 @@
+.phase{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.onephase{
+  position: relative;
+  width: 95vw;
+  height: 10vh;
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+.background{
+  position: relative;
+  z-index: 11;
+}
+
+.background-image{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.img{
+  position: absolute;
+  top: 2vh;
+  bottom: 2vh;
+  left: 0vh;
+  z-index: 2;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 100%;
+}
+
+.text{
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+}
+
+.block{
+  height: 10vh;
+  width: 7vh;
+}
+
+.title{
+  height: 35vh;
+}
+
+.tail{
+  height: 15vh;
+}

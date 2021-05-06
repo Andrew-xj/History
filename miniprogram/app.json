@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/homepage/homepage",
+    "pages/homepage/phasepage/phasepage",
+    "pages/homepage/phasepage/bigevent/bigevent",
+    "pages/homepage/phasepage/bigevent/eventpage/eventpage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#cc0313",
+    "navigationBarTitleText": "百邮情",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
